@@ -6,7 +6,9 @@ public class FirstClass {
 		PrintClass printMsg = new PrintClass();
 		printMsg.logToSystem( primaryMsg, "\t\tSTARTED" );
 
-		printMsg.printIntegers( 1, 10 );
+		printMsg.printIntegers( 0, 10);
+
+		printMsg.printIntegersWithMultiplier( 0, 10, 2);
 
 		printMsg.logToSystem( primaryMsg, "\t\tCOMPLETED!!!!" );
 	}

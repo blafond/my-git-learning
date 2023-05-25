@@ -9,9 +9,15 @@ public class PrintClass {
 		System.out.println(msg + "\n" + anotherMsg);
 	}
 
-	public void printIntegers( int start, int howMany ) {
+	public void printIntegers( int start, int howMany) {
 		for( int i = start; i< howMany; i++) {
 			System.out.println("\t" + i);
+		}
+	}
+
+	public void printIntegersWithMultiplier( int start, int howMany, int multiplier) {
+		for( int i = start; i< howMany; i++) {
+			System.out.println("\t" + i*multiplier);
 		}
 	}
 }
