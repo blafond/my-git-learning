@@ -1,5 +1,8 @@
 package main.java.org.hibernate.learning;
 
+/**
+ Sample Javadoc
+ */
 public class FirstClass {
 	private static final String primaryMsg = " >>> FirstClass.java class :  main()";
 	public static void main(String[] args) {
